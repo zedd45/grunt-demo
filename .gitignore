@@ -1,0 +1,7 @@
+# ignore server deps
+node_modules/
+# and client deps
+components/
+
+# and I would say generated files, but this is useful in the case of this example
+# dist

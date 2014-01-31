@@ -1,0 +1,29 @@
+{
+  "name": "grunt_demo",
+  "version": "0.0.1",
+  "dependencies": {
+    "backbone": "~1.0.0",
+    "handlebars": "~1.0.0",
+    "json2": "latest",
+    "jquery": "~2.x.0",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {},
+  "dependenciesIgnore": {
+    "backbone": [
+      "**/!(backbone)"
+    ],
+    "underscore": [
+      "**/!(underscore.js|underscore-min.js|underscore-min.map)"
+    ],
+    "jquery": [
+      "**/!(jquery)"
+    ],
+    "when": [
+      "docs",
+      "test",
+      "*.!(js)",
+      ".*"
+    ]
+  }
+}
